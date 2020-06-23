@@ -3,7 +3,7 @@
   margin: 0 auto;
   box-shadow: 0px 0px 10px grey;
   padding: 20px;
-  border-radius: 4px;
+  border-radius: 10px;
   background-color: #EAEAEA;
   text-align: center;
 }
@@ -14,16 +14,13 @@
   justify-content: center;
 }
 
-.round-image {
-  border-radius: 50px;
-}
-
 .card {
-  width: 700px;   /* This sets the width */
+  width: 720px;   /* This sets the width */
   margin: 5 auto;
   margin-top: 14px;
-  padding: 20px;
-  border-radius: 4px;
+  margin-bottom: 2px;
+  padding: 10px;
+  border-radius: 10px;
   background-color: #EAEAEA;
   text-align: center;
   font-size: 20px;
@@ -45,22 +42,15 @@
 }
 
 .btn:hover {
-  text-decoration: underline;
+  text-decoration: none;
   opacity: 0.8;
-  color: black;
+  color: white;
 }
 
 .image {
   width: 700px;
   margin: 10 auto;
   padding: 4px;
-  border-radius: 4px;
-  background-color: #EAEAEA;
-}
-
-.bottom_image {
-  width: 300px;
-  margin: 10 auto;
   border-radius: 4px;
   background-color: #EAEAEA;
 }
@@ -75,19 +65,19 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   opacity: 0.8;
   color: #0E4749;
 }
 
 body {
-  /*background-color: #EAEAEA;*/
-  background-image: url("https://i.picsum.photos/id/204/1800/1649.jpg");
+  background-color: #222831;
   opacity: 0.9;
   text-align: center;
   justify-content: all;
   font-family: 'Asap', sans-serif;
-  padding-bottom: 200px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 
 }
 h1 {
