@@ -15,11 +15,11 @@
 }
 
 .card {
-  width: 720px;   /* This sets the width */
+  width: 740px;   /* This sets the width */
   margin: 5 auto;
   margin-top: 14px;
   margin-bottom: 2px;
-  padding: 10px;
+  padding: 2px;
   border-radius: 10px;
   background-color: #EAEAEA;
   text-align: center;
