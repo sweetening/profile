@@ -14,6 +14,10 @@
   justify-content: center;
 }
 
+.round-image {
+  border-radius: 50px;
+}
+
 .card {
   width: 700px;   /* This sets the width */
   margin: 5 auto;
@@ -34,10 +38,16 @@
 
 .btn {
   padding: 10px;
-  opacity: 0.5;
   border-radius: 10px;
   text-decoration: none;
-  background-color: #111D5E;
+  background-color: #204051;
+  color: orange;
+}
+
+.btn:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+  color: black;
 }
 
 .image {
@@ -66,7 +76,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  opacity: 0.5;
+  opacity: 0.8;
   color: #0E4749;
 }
 
@@ -82,7 +92,7 @@ body {
 }
 h1 {
   font-family: 'Ubuntu', sans-serif;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   font-weight: bold;
   color: #2B2D42;
   font-size: 36px;
